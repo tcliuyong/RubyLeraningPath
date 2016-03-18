@@ -5,5 +5,4 @@ class Mysql
   r.each_hash do |f|
     print "#{f['username']}"
   end
-
 end
