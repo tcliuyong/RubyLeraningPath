@@ -31,4 +31,8 @@ class ArrayList
   print("\n")
   print(a + b )
   #此外 ruby还有数组的去重 a。uniq 数组的颠倒 a.reverse 数组的交织 a.zip
+
+  for i in b
+    puts "#{i}"
+  end
 end
