@@ -3,13 +3,13 @@
 end
 puts
 0.upto(9) do |x|
-  print x, " "
+  print x, ' '
 end
 puts
-0.step(12, 3){|x| print x," "}
+0.step(12, 3){|x| print x,' '}
 puts
 
- [1,2,3,4].each {|val| print val, ""}
+ [1,2,3,4].each {|val| print val, ''}
 a = [4,5,6,7]
 puts
 for var in a
